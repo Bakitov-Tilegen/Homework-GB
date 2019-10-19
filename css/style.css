@@ -1,87 +1,91 @@
-body{
-   margin: 0; 
-}/* здесь не сработал margin почему? */
+body {
+    margin: 0;
+}
 
-.container { 
- width:1280px;
- margin: 0 auto;
- border: 1px solid black;
- 
- }
+/* здесь не сработал margin почему? */
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    border: 1px solid black;
+
+}
 
 /*.l-pading{
     padding:0 50px 0 50px;
 }*/
 
-.main-header{
-   /* Style for "header-bg" */
-width: 100%;
-padding: 40px 30px 35px 30px;
-box-sizing: border-box;
-background-color: #445162;
-text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
-color: #ffffff;    
-font-family: "Arial";
-font-size: 20px;
-font-weight: 400;
-line-height: 36px; 
+.main-header {
+    /* Style for "header-bg" */
+    width: 100%;
+    padding: 40px 30px 35px 30px;
+    box-sizing: border-box;
+    background-color: #445162;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
 
 
-/* Style for "Put on thi" */
+    /* Style for "Put on thi" */
 
 }
 
 
 .main-header:after {
     content: "";
-    display:block;
+    display: block;
     width: 100%;
     clear: both;
-}  
-
-.main-header-wrp{
-   
-    /*border: 1px solid red;*/
-    width:465px; height: 220px;
-    float: left;
-    
 }
 
-.main-header-jpg{
+.main-header-wrp {
+
+    /*border: 1px solid red;*/
+    width: 465px;
+    height: 220px;
+    float: left;
+
+}
+
+.main-header-jpg {
     display: block;
-    width: 470px; 
+    width: 470px;
     min-height: 215px;
     background-color: white;
     float: right;
-    
+
 }
 
-.main-header-title{
+.main-header-title {
     margin: 0 0 0 0;
-    
+
 }
+
 .main-header-title {
     /* Style for "Product na" */
-margin 0 0 50px 0;
-width: 375px;
-height: 45px;
-text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
-color: #ffffff;
-font-family: "Arial";
-font-size: 60px;
-font-weight: 400;
+    margin 0 0 50px 0;
+    width: 375px;
+    height: 45px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 60px;
+    font-weight: 400;
 }
 
-.main-header-list{
+.main-header-list {
     padding: 0 0 50 85;
 }
 
-.main-header-list-item{
-list-style-type: none;
-position: relative;
+.main-header-list-item {
+    list-style-type: none;
+    position: relative;
 }
 
-.main-header-list-item:before{
+.main-header-list-item:before {
     content: "";
     display: block;
     width: 25px;
@@ -93,31 +97,33 @@ position: relative;
     left: -32px;
 }
 
-.about-product{
+.about-product {
     /* Style for "About your" */
-width: 255px;
-height: 30px;
-color: #445161;
-font-family: "Arial";
-font-size: 30px;
-font-weight: 400;
-line-height: 35px;
-padding:50px 0 0 50px; 
-margin: 0;
+    width: 255px;
+    height: 30px;
+    color: #445161;
+    font-family: "Arial";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    padding: 50px 0 0 50px;
+    margin: 0;
 
 }
 
-.about-product:before{
-     position: absolute;
+.about-product:before {
+    position: absolute;
 }
-.video-about{
+
+.video-about {
     position: relative;
-    bottom: 125px;/*Подскажите как здесь надо было обойтесь без position за ранее спасибо за ответ )*/
-    right:50px;
-    
+    bottom: 125px;
+    /*Подскажите как здесь надо было обойтесь без position за ранее спасибо за ответ )*/
+    right: 50px;
+
 }
 
-.main-about{
+.main-about {
     width: 1280px;
     height: 325px;
 }
@@ -127,35 +133,35 @@ margin: 0;
     display: block;
     width: 100%;
     clear: both;
-   
+
 }
 
-.about-p{
+.about-p {
     /* Style for "Lorem ipsu" */
     padding: 30px 0 0 25px;
-width: 650px;
-height: 65px;
-color: #333333;
-font-family: "Arial";
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-float: left;
-position: relative;
-margin: 0;
+    width: 650px;
+    height: 65px;
+    color: #333333;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    float: left;
+    position: relative;
+    margin: 0;
 }
 
-.video-about{
-/* Style for "video" */
-width: 430px;
-min-height: 245px;
-background-color: #445161;
-float: right;
-display: block;
+.video-about {
+    /* Style for "video" */
+    width: 430px;
+    min-height: 245px;
+    background-color: #445161;
+    float: right;
+    display: block;
 
 }
 
-.main-pluses{
+.main-pluses {
     width: 100%;
     min-height: 420px;
     padding: 50px;
@@ -163,57 +169,58 @@ display: block;
     box-sizing: border-box;
 }
 
-.main-pluses:after{
+.main-pluses:after {
     content: "";
-    display:block;
+    display: block;
     width: 100%;
     clear: both;
 }
 
-.pluses{
+.pluses {
     display: block;
     margin: 0 0 24px 413px;
     font-size: 30px;
     font-family: "Arial";
-    color: rgb(68,81,97);
+    color: rgb(68, 81, 97);
     line-height: 1.2;
 }
 
 
 .pluses-item {
-  width: 540px;
-  margin: 0;
-  padding: 0 0 0 46px;
-  list-style-type: none;
-  float: left;
- 
+    width: 540px;
+    margin: 0;
+    padding: 0 0 0 46px;
+    list-style-type: none;
+    float: left;
+
 }
 
-.pluses-item:nth-child(3){
-  float: right;
+.pluses-item:nth-child(3) {
+    float: right;
 }
 
 .pluses-item-list {
-  margin: 0 0 40px 0;
-  position: relative;
+    margin: 0 0 40px 0;
+    position: relative;
 }
 
 .pluses-item:nth-child(2) > .dignity-list-item:nth-child(3),
 .pluses-item:nth-child(3) > .dignity-list-item:nth-child(3) {
-  margin:0;
+    margin: 0;
 }
-.pluses-item:nth-child(3){
-  float: right;
+
+.pluses-item:nth-child(3) {
+    float: right;
 }
 
 .pluses-item-list:before {
     content: "+";
-    display:block;
+    display: block;
     width: 32px;
     height: 32px;
     background-color: #445161;
     color: white;
-    font-size: 28px ;
+    font-size: 28px;
     text-align: center;
     line-height: 32px;
     position: absolute;
@@ -222,58 +229,58 @@ display: block;
 }
 
 
-.main-screenshots{
+.main-screenshots {
     width: 100%;
     min-height: 487px;
     padding: 0 50px 0 50px;
     box-sizing: border-box;
-    
+
 }
 
-.screenshots{
-  width: 100%;
-  margin: 0 0 35px 0;
-  /*   height: 22px; */
-  color: #445161;
-  text-align: center;
-  font-family: "Arial";
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 36px;
-  
+.screenshots {
+    width: 100%;
+    margin: 0 0 35px 0;
+    /*   height: 22px; */
+    color: #445161;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+
 }
 
 
-.screenshots-item{
+.screenshots-item {
     width: 575px;
     margin: 0 0 30px 0;
     float: left;
     box-sizing: border-box;
-    
+
 }
 
 
 .screenshots-item:nth-child(3),
-.screenshots-item:nth-child(5){
-    float:right;
+.screenshots-item:nth-child(5) {
+    float: right;
 }
 
 .screenshots-item:nth-child(4),
-.screenshots-item:nth-child(5){
-margin-bottom: ;
+.screenshots-item:nth-child(5) {
+    margin-bottom: ;
 }
 
-.screenshots-jpg{
+.screenshots-jpg {
     display: block;
-   background-color: #445161;
+    background-color: #445161;
     margin: 0 15px 0 0;
     float: left;
     height: 150px;
 }
 
-.description{
+.description {
     /* Style for "The descri" */
-margin: 0 0 15px 0;
+    margin: 0 0 15px 0;
     color: #445161;
     text-align: left;
     font-family: arial;
@@ -281,54 +288,52 @@ margin: 0 0 15px 0;
     font-weight: 400;
 }
 
-.screenshots-txt{
+.screenshots-txt {
     margin: 0;
-  color: #333333;
-  text-align: justify;
-  font-family: arial;
-  font-size: 16px;
-  line-height: 23px;
-  font-weight: 400;
-  color: #333333;
+    color: #333333;
+    text-align: justify;
+    font-family: arial;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #333333;
 }
 
 
 
-screenshots-item-desc{
+screenshots-item-desc {
     margin: 0;
 }
 
-.reviews{
+.reviews {
     overflow: hidden;
     width: 100%;
     height: 420px;
-    
+
 }
 
 
 
 
-.main-reviews{
+.main-reviews {
     margin: 0 0 0 30px;
-    
+
 }
 
-.head-reviews{
-margin: 0 auto;
+.head-reviews {
+    margin: 0 auto;
     /* Style for "Reviews" */
-width: 111px;
-height: 22px;
-color: #445161;
-font-family: "Arial";
-font-size: 30px;
-font-weight: 400;
-line-height: 36px;
-padding: 0 0 40px 0;
+    width: 111px;
+    height: 22px;
+    color: #445161;
+    font-family: "Arial";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 0 0 40px 0;
 }
 
-.head-reviews:after{
-    
-}
+.head-reviews:after {}
 
 /*.main-reviews:nth-child(1),
 .main-reviews:nth-child(3){
@@ -343,123 +348,269 @@ padding: 0 0 40px 0;
 
 
 .left-reviews,
-right-reviews{
+right-reviews {
     float: left;
     box-sizing: border-box;
     min-height: 100%;
 }
-.left-reviews{
-    width: 50%;
-}
-.right-reviews{
+
+.left-reviews {
     width: 50%;
 }
 
-.left-reviews{
-    position:;
+.right-reviews {
+    width: 50%;
+}
+
+.left-reviews {
+    position: ;
     float: left;
     width: 520px;
     box-sizing: border-box;
 }
 
-.right-reviews{
+.right-reviews {
     position: ;
-float: right;
-width: 520px;
-box-sizing: border-box;
+    float: right;
+    width: 520px;
+    box-sizing: border-box;
 }
 
 
-.txt-reviews{
-    
+.txt-reviews {
+
     overflow: hidden;
     margin: 0px 0px 20px 80px;
     width: 405px;
     height: 125px;
     text-align: justify;
     background-color: #ebebeb;
-    
+
 }
-.default-avatar{
-    
+
+.default-avatar {
+
     /*border: 1px solid green;*/
     position: absolute;
     /*padding: 80px 0 0 35px;*/
-   
+
 }
 
-.prices{
+.prices {
     height: 650px;
     padding: 0 108px 0 108px;
     bottom: 400px;
     right: 20;
 }
-.prices-product{
-width: 100%;
-display: inline-flex;
-table-layout: fixed;
-flex-direction: row;
+
+.price-product {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
-.buy-head{
+.buy-head {
+    padding: 0 0 35px 0;
     margin: 0 auto;
     /* Style for "Buy it now" */
-width: 137px;
-height: 28px;
-color: #445161;
-font-family: "Arial";
-font-size: 30px;
-font-weight: 400;
-line-height: 36px;
+    width: 139px;
+    height: 28px;
+    color: #445161;
+    font-family: "Arial";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
 }
 
-.standart-100{
+.standart-100 {
     margin: 0 30px 35px 0;
-    border: 1px solid #000;
+    border: 1px solid #445162;
     width: 300px;
     height: 305px;
     display: inline-block;
     clear: both;
-   
+    align-self: flex-end;
 }
 
-
-.100{
-    /* Style for "$100" */
-width: 87px;
-height: 35px;
-color: #445162;
-font-family: "Arial";
-font-size: 40px;
-font-weight: 400;
-line-height: 30px;
-}
-.standart{
-/* Style for "Standart" */
-width: 90px;
-height: 18px;
-color: #ffffff;
-font-family: "Arial";
-font-size: 24px;
-font-weight: 400;
-line-height: 30px;
-}
-
-
-.premium-150{
+.premium-150 {
     margin: 0 30px 35px 0;
-    border: 1px solid green;
+    border: 1px solid #445162;
     display: inline-block;
     width: 300px;
     height: 405px;
-   
+    align-self: flex-end;
 }
 
-.lux-200{
+.lux-200 {
     margin: 0 0 35px 0;
-    border: 1px solid red;
+    border: 1px solid #445162;
     display: inline-block;
     width: 300px;
     height: 500px;
+    align-self: flex-end;
+}
+
+
+.p-100 {
+    margin: 0 auto;
+    padding: 20px 0 0px 0;
+    /* Style for "$100" */
+    width: 87px;
+    height: 35px;
+    color: #445162;
+    font-family: "Arial";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.p-150 {
+    margin: 0 auto;
+    padding: 20px 0 0px 0;
+    /* Style for "$150" */
+
+    width: 87px;
+    height: 35px;
+    color: #445162;
+    font-family: "Arial";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.p-200 {
+    margin: 0 auto;
+    padding: 20px 0 0px 0;
+    /* Style for "$200" */
+
+    width: 87px;
+    height: 35px;
+    color: #445162;
+    font-family: "Arial";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.standart {
+    /* Style for "Standart" */
+    width: 90px;
+    height: 18px;
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.txt-standart {
+    width: 300px;
+    height: 50px;
+    background-color: #445162;
+}
+
+.txt-premium {
+    width: 300px;
+    height: 50px;
+    background-color: #445162;
+
+}
+
+.txt-lux {
+    width: 300px;
+    height: 55px;
+    background-color: #445162;
+}
+
+.buy-standart {
+    width: 300px;
+    height: 190px;
+    background-color: #445162;
+    /* Style for "1. Porro o" */
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.buy-premium {
+    width: 300px;
+    height: 287px;
+    background-color: #445162;
+    /* Style for "1. Porro o" */
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.buy-lux {
+    width: 300px;
+    height: 380px;
+    background-color: #445162;
+    /* Style for "1. Porro o" */
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.standart {
+    margin: 0 auto;
+    background-color: #445162;
+    /* Style for "Standart" */
+    width: 90px;
+    height: 18px;
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.premium {
+    margin: 0 auto;
+    background-color: #445162;
+    /* Style for "Standart" */
+    width: 90px;
+    height: 18px;
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.lux {
+    height: 55px;
+    margin: 0 auto;
+    background-color: #445162;
+    /* Style for "Standart" */
+    width: 90px;
+    height: 18px;
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.click-buy {
+    padding: 0 0 0 0;
+    width: 260px;
+    min-height: 40px;
+    margin: 0 0 0 20px;
+
+    background-color: #fff;
+    color: #445161;
+    font-family: "Arial-Bolt";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
 }
