@@ -1,4 +1,4 @@
 # Homework-GB
 version-2
 
-check gitbash
+check git-bash
